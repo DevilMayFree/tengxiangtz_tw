@@ -248,7 +248,7 @@ jQuery(document).ready(function ($) {
 			}, Speed);
 		};
 	
-		//三個騰翔輪播
+		//三個遠隆輪播
 		$('.secsli_slides').on('init', function(){
 			$('.secsli_bg figure').css('background-image','url(' + $('.secsli_obj:first-child > div').data('bgurl') + ')');
 		});
@@ -439,7 +439,7 @@ jQuery(document).ready(function ($) {
 			headerFunc();
 	
 			$('a').click(function(e){
-				if( $(this).text() == '加入騰翔 News 電子報' ){
+				if( $(this).text() == '加入遠隆 News 電子報' ){
 					e.preventDefault();
 					$('html, body').animate({
 						scrollTop: $(document).height()
